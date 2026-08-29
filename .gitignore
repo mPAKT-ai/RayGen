@@ -1,0 +1,26 @@
+# Trained weights and run outputs
+*.pt
+*.pth
+*.npy
+out/
+out_*/
+old/
+
+# Local training / inference / benchmarking scripts
+train.py
+infer.py
+bench.py
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
